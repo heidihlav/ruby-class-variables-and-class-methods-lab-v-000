@@ -8,7 +8,7 @@ class Song
 
   attr_accessor :name, :artist, :genre #why use reader and writer for this lab? to explain in blog
 
-  def initialize #why pass in as args?
+  def initialize(name, artist, genre) #why pass in as args?
     @name = name
     @artist = artist
     @genre = genre
