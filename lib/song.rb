@@ -6,9 +6,9 @@ class Song
   @@genres = []
   @@artists = []
 
-  attr_accessor :name, :artist, :genre #why use reader and writer for this lab? to explain in blog
+  attr_accessor :name, :artist, :genre 
 
-  def initialize(name, artist, genre) #why pass in as args?
+  def initialize(name, artist, genre) 
     @name = name
     @artist = artist
     @genre = genre
